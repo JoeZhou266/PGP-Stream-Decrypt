@@ -1,0 +1,17 @@
+.env
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+log/*.log
+pgps/input/*
+pgps/output/*
+pgps/processed/*
+pgps/error/*
+pgps/testing/*bin*
+!pgps/**/.gitkeep

@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -m venv venv)",
+      "Bash(venv/Scripts/pip install:*)",
+      "Bash(venv/Scripts/python pgps/testing/generate_test_data.py)",
+      "Bash(cp pgps/testing/sample.txt.pgp pgps/input/)",
+      "Bash(cp pgps/testing/large_sample.bin.pgp pgps/input/)"
+    ]
+  }
+}
